@@ -14,7 +14,15 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 1. **Preparing ROS**
    Create a workspace by using ```catkin_make``` http://wiki.ros.org/catkin/Tutorials/create_a_workspace 
 
-3. 
+2.**Add the “arduino_robot_arm” package to “src”** 
+~~~bash
+	cd ~/catkin_ws/src
+	sudo apt install git
+	git clone githttps://github.com/smart-methods/arduino_robot_arm 
+https://github.com/smart-methods/arduino_robot_arm.git 
+
+
+~~~
 
 
 
