@@ -11,10 +11,11 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 - ROS Version: ROS Noetic
 
 ## Requirements
-1. Preparing ROS
-Create a workspace by using >catkin_make http://wiki.ros.org/catkin/Tutorials/create_a_workspace 
+1. **Preparing ROS**
+   
+Create a workspace by using ```catkin_make``` http://wiki.ros.org/catkin/Tutorials/create_a_workspace 
 
-2. 
+3. 
 
 
 
