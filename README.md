@@ -77,6 +77,10 @@ rosrun robot_arm_pkg joint_states_to_gazebo.py
 
 # Controlling the robot arm by Moveit and kinematics
 
+```moveit_pkg``` serves as a comprehensive toolkit within ROS for developing, testing, and deploying sophisticated motion planning and control applications for robotic systems.
+
+**MoveIt controlling**
+
 This command sets up a demo environment in ROS with MoveIt, enabling visualization, motion planning, and execution capabilities for a robotic system.
 
 ~~~bash
