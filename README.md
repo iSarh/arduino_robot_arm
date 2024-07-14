@@ -13,6 +13,7 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 ## Requirements
 1. **Preparing ROS**
    Create a workspace by using ```catkin_make``` http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+   
 2. **Add the “arduino_robot_arm” package to “src”**
    ~~~bash
    cd ~/catkin_ws/src
@@ -29,7 +30,9 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
    sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
    ~~~
    Compile the package
-   ~~~bash catkin_make ~~~
+   ~~~bash
+   catkin_make
+   ~~~
 
 
 
