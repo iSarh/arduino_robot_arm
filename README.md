@@ -43,7 +43,7 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 > sudo apt-get install ros-noetic-robot-state-publisher
 > ~~~
 
-**Now, lets control the motors in simulation by executing the following:**
+**Now, let's control the motors in simulation by executing the following:**
 
 ~~~bash
 roslaunch robot_arm_pkg check_motors.launch
@@ -68,9 +68,19 @@ This command runs a Python script that publishes joint states to Gazebo, enablin
 
 ![Screenshot 2024-07-14 042153](https://github.com/user-attachments/assets/f3c3ec80-1b39-49b5-a772-ebc791937783)
 
+# Controlling the robot arm by Moveit and kinematics
+
+~~~bash
+roslaunch moveit_pkg demo.launch
+~~~
+This command sets up a demo environment in ROS with MoveIt, enabling visualization, motion planning, and execution capabilities for a robotic system.
+
+![image](https://github.com/user-attachments/assets/6b45d41b-4260-443e-9d75-a53cc5b51550)
 
 
+~~~bash
+roslaunch moveit_pkg demo.launch
+~~~
 
-
-
+This ommand initializes a MoveIt demo environment in ROS with Gazebo integration, facilitating simulated motion planning, visualization, and execution for a robotic system.
 
