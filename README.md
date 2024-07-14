@@ -43,6 +43,18 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 > sudo apt-get install ros-noetic-robot-state-publisher
 > ~~~
 
+Now, Executes
+~~~bash
+roslaunch robot_arm_pkg check_motors.launch
+~~~
+to initiate nodes that monitor and manage the operational status of motors within the robotic arm using ROS.
+
+
+
+
+
+
+
 
 
 
