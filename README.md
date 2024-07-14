@@ -45,42 +45,51 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 
 **Now, let's control the motors in simulation by executing the following:**
 
+This command initiates nodes that monitor and manage the operational status of motors within the robotic arm using ROS.
+
 ~~~bash
 roslaunch robot_arm_pkg check_motors.launch
 ~~~
-This command initiates nodes that monitor and manage the operational status of motors within the robotic arm using ROS.
+
 
 ![rviz](https://github.com/user-attachments/assets/6d913273-3587-4f8b-87ba-430c4b9f9557)
+
+
+This command launches nodes to simulate and monitor the behavior of motors within the robotic arm using Gazebo in ROS.
 
 ~~~bash
 roslaunch robot_arm_pkg check_motors_gazebo.launch
 ~~~
 
-This command launches nodes to simulate and monitor the behavior of motors within the robotic arm using Gazebo in ROS.
 
 ![Screenshot 2024-07-14 040610](https://github.com/user-attachments/assets/e3155b9a-3317-4687-9341-c72988961443)
+
+
+This command runs a Python script that publishes joint states to Gazebo, enabling visualization and simulation of a robotic arm's movements within the ROS ecosystem.
 
 ~~~bash
 rosrun robot_arm_pkg joint_states_to_gazebo.py
 ~~~
 
-This command runs a Python script that publishes joint states to Gazebo, enabling visualization and simulation of a robotic arm's movements within the ROS ecosystem.
 
 ![Screenshot 2024-07-14 042153](https://github.com/user-attachments/assets/f3c3ec80-1b39-49b5-a772-ebc791937783)
 
+
 # Controlling the robot arm by Moveit and kinematics
+
+This command sets up a demo environment in ROS with MoveIt, enabling visualization, motion planning, and execution capabilities for a robotic system.
 
 ~~~bash
 roslaunch moveit_pkg demo.launch
 ~~~
-This command sets up a demo environment in ROS with MoveIt, enabling visualization, motion planning, and execution capabilities for a robotic system.
 
 ![image](https://github.com/user-attachments/assets/6b45d41b-4260-443e-9d75-a53cc5b51550)
 
 
+This command initializes a MoveIt demo environment in ROS with Gazebo integration, facilitating simulated motion planning, visualization, and execution for a robotic system.
+
 ~~~bash
 roslaunch moveit_pkg demo.launch
 ~~~
 
-This ommand initializes a MoveIt demo environment in ROS with Gazebo integration, facilitating simulated motion planning, visualization, and execution for a robotic system.
 
