@@ -43,12 +43,12 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 > sudo apt-get install ros-noetic-robot-state-publisher
 > ~~~
 
-Now, lets control the motors in simulation by executing the following:
+**Now, lets control the motors in simulation by executing the following:**
 
 ~~~bash
 roslaunch robot_arm_pkg check_motors.launch
 ~~~
-to initiate nodes that monitor and manage the operational status of motors within the robotic arm using ROS.
+This command initiates nodes that monitor and manage the operational status of motors within the robotic arm using ROS.
 
 ![rviz](https://github.com/user-attachments/assets/6d913273-3587-4f8b-87ba-430c4b9f9557)
 
