@@ -88,8 +88,12 @@ roslaunch moveit_pkg demo.launch
 
 This command initializes a MoveIt demo environment in ROS with Gazebo integration, facilitating simulated motion planning, visualization, and execution for a robotic system.
 
+> [!NOTE]
+> Press on Plan&Execute in Rviz to see the simulated motion in Gazebo 
+
 ~~~bash
 roslaunch moveit_pkg demo.launch
 ~~~
+![Screenshot 2024-07-14 051104](https://github.com/user-attachments/assets/fb97aac7-adba-48ab-81a6-2f20321463f1)
 
 
