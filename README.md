@@ -38,8 +38,9 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 ```joint_state_publisher``` provides a straightforward way to manually control and visualize the movements of each joint of a robot arm, facilitating tasks such as calibration, basic movement testing, and initial setup in robotic applications developed with ROS.
 
 > [!NOTE]
-> Make sure you install ```robot-state-publisher ``` the Robot State Publisher in ROS dynamically publishes the state of a robot defined by its URDF, including joint positions and TF transforms, crucial for simulation and control within the ROS ecosystem.```bash
- sudo apt-get install ros-noetic-robot-state-publisher ```
+> Make sure you install ```robot-state-publisher ``` the Robot State Publisher in ROS dynamically publishes the state of a robot defined by its URDF, including joint positions and TF transforms, crucial for simulation and control within the ROS ecosystem.~~~bash
+ sudo apt-get install ros-noetic-robot-state-publisher
+ ~~~
 
 
 
