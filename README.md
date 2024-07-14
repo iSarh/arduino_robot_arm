@@ -43,21 +43,30 @@ I began by forking the original arduino_robot_arm repository from [smart-methods
 > sudo apt-get install ros-noetic-robot-state-publisher
 > ~~~
 
-Now, Executes
+Now, lets control the motors in simulation by executing the following:
+
 ~~~bash
 roslaunch robot_arm_pkg check_motors.launch
 ~~~
 to initiate nodes that monitor and manage the operational status of motors within the robotic arm using ROS.
 
+![rviz](https://github.com/user-attachments/assets/6d913273-3587-4f8b-87ba-430c4b9f9557)
 
+~~~bash
+roslaunch robot_arm_pkg check_motors_gazebo.launch
+~~~
 
+This command launches nodes to simulate and monitor the behavior of motors within the robotic arm using Gazebo in ROS.
 
+![Screenshot 2024-07-14 040610](https://github.com/user-attachments/assets/e3155b9a-3317-4687-9341-c72988961443)
 
+~~~bash
+rosrun robot_arm_pkg joint_states_to_gazebo.py
+~~~
 
+This command runs a Python script that publishes joint states to Gazebo, enabling visualization and simulation of a robotic arm's movements within the ROS ecosystem.
 
-
-
-
+![Screenshot 2024-07-14 042153](https://github.com/user-attachments/assets/f3c3ec80-1b39-49b5-a772-ebc791937783)
 
 
 
